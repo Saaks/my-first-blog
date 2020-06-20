@@ -1,3 +1,5 @@
+@media (min-width: 501px) {
+
 .page-header {
     background-color: #000000;
     margin-top: 0;
@@ -69,4 +71,51 @@ h1, h2, h3, h4 {
     font-size: 6pt;
     margin: 5px;
     font-family: 'NanumGothic';
+}
+
+}
+
+
+@media (max-width: 500px) {
+
+    .page-header {
+        background-color: #000000;
+        margin-top: 0;
+        padding: 10px 10px 10px 50px;
+    }
+
+    .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+        color: #ffffff;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    .post h1 {
+        font-size: 1.3em;
+    }
+
+    .post h1 a, .post h1 a:visited {
+        color: #000000;
+    }
+
+    .date {
+    color: #828282;
+    font-size: 0.9em;
+    }
+
+    .comment {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .comment_style {
+        font-size: 0.9em;
+        margin: 5px;
+    }
+
+    .comment_date {
+        color: #828282;
+        font-size: 1em;
+        margin: 5px;
+    }
+
 }
