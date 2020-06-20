@@ -15,7 +15,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'NanumGothic', cursive;
+    font-family: 'NanumGothic';
 }
 
 .date {
@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 25px;
-    font-family: 'NanumGothic', cursive;
+    font-family: 'NanumGothic';
     font-size: 10pt;
 }
 
@@ -61,12 +61,12 @@ h1, h2, h3, h4 {
 .comment_style {
     font-size: 8pt;
     margin: 5px;
-    font-family: 'NanumGothic', cursive;
+    font-family: 'NanumGothic';
 }
 
 .comment_date {
     color: #828282;
     font-size: 6pt;
     margin: 5px;
-    font-family: 'NanumGothic', cursive;
+    font-family: 'NanumGothic';
 }
