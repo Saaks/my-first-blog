@@ -2,7 +2,6 @@
 {% block content %}
     {% for post in posts %}
         <div class="post">
-            <hr class="hr">
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
                 <div class="date">
                     <p>{{ post.published_date }}</p>
@@ -11,5 +10,6 @@
                     <p>&nbsp;</p>
                      <a href="{% url 'post_detail' pk=post.pk %}" class="date">Comments: {{ post.comments.count }}</a>
                 </div>
+            <hr class="hr">
     {% endfor %}
 {% endblock %}
