@@ -2,7 +2,7 @@
 
 {% block content %}
     <div class="post">
-        <h1>{{ post.title }}</h1>
+        <h1><strong>{{ post.title }}</strong></h1>
         {% if post.published_date %}
             <div class="date">
                 {{ post.published_date }}
@@ -17,4 +17,14 @@
             {% endif %}
         </p>
     </div>
+    <a href="{% url 'add_comment_to_post' pk=post.pk %}" class="comment_style">Add Comment</a>
+    {% for comment in post.comments.all %}
+    <div class="comment">
+        <div class="comment_date">{{ comment.created_date }}</div>
+        <div class="comment_style"><strong>{{ comment.author }}</strong></div>
+        <div class="comment_style">{{ comment.text|linebreaks }}</div>
+    </div>
+    {% empty %}
+    <p>댓글 남겨줘요</p>
+{% endfor %}
 {% endblock %}

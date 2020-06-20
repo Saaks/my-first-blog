@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
-    font-size: 5pt;
+    font-size: 6pt;
 }
 
 .save {
@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     font-family: 'NanumGothic', cursive;
     font-size: 10pt;
 }
@@ -52,4 +52,21 @@ h1, h2, h3, h4 {
 
 .hr {
     width: 100%;
+}
+
+.comment {
+    margin: 20px 20px 20px 20px;
+}
+
+.comment_style {
+    font-size: 8pt;
+    margin: 5px;
+    font-family: 'NanumGothic', cursive;
+}
+
+.comment_date {
+    color: #828282;
+    font-size: 6pt;
+    margin: 5px;
+    font-family: 'NanumGothic', cursive;
 }
