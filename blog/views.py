@@ -1,5 +1,5 @@
 from django.utils import timezone
-from .models import Post
+from .models import Post, Image
 from .forms import PostForm, CommentForm
 from django.shortcuts import redirect
 from django.shortcuts import render, get_object_or_404
@@ -52,3 +52,7 @@ def add_comment_to_post(request, pk):
     else:
         form = CommentForm()
     return render(request, 'blog/add_comment_to_post.html', {'form': form})
+
+def img_list(request):
+    image = Image.objects.all()
+    return render(request, 'blog/img_list.html', {'image':image})

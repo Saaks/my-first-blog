@@ -3,7 +3,7 @@
 .page-header {
     background-color: #000000;
     margin-top: 0;
-    padding: 10px 10px 10px 50px;
+    padding: 10px 10px 20px 50px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -20,6 +20,26 @@ h1, h2, h3, h4 {
     font-family: 'NanumGothic';
 }
 
+.lnb, .lnb a, .lnb a:visited, .lnb a:active  {
+    color: #ffffff;
+    font-size: 8pt;
+    text-decoration: none;
+    padding: 0px 20px 0px 2px;
+    float: left;
+}
+
+img {
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.image_container {
+    float: left;
+    margin-right: 20px;
+}
+
 .date {
     color: #828282;
     font-size: 6pt;
@@ -31,11 +51,6 @@ h1, h2, h3, h4 {
 
 .post-form textarea, .post-form input {
     width: 100%;
-}
-
-.top-menu, .top-menu:hover, .top-menu:visited {
-    float: right;
-    margin-right: 20px;
 }
 
 .post {

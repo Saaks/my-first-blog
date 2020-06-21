@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for i in image %}
+    <div class="image_container">
+        <div class="date">{{ i.title }}</div>
+        <p><a href="{{ i.image.url }}" target="_blank"><img src="{{ i.image.url }}" /></a></p>
+    </div>
+    {% endfor %}
+{% endblock %}
