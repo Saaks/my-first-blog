@@ -30,13 +30,13 @@
     }
 
     .comment_style {
-        font-size: 0.9em;
+        font-size: 1em;
         margin: 5px;
     }
 
     .comment_date {
-        color: #000000;
-        font-size: 1em;
+        color: #828282;
+        font-size: 0.9em;
         margin: 5px;
     }
 
