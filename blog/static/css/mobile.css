@@ -41,11 +41,12 @@
     }
 
     .lnb, .lnb a, .lnb a:visited, .lnb a:active  {
-        color: #000000;
+        color: #828282;
         font-size: 1em;
         text-decoration: none;
         padding: 0px 20px 0px 2px;
         float: left;
+        font-weight: bold;
     }
 
     img {
