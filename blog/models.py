@@ -40,3 +40,6 @@ class Image(models.Model):
 
     def __str__(self):
         return self.title
+
+class Contacts(models.Model):
+    text = models.TextField(default='')

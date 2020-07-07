@@ -56,3 +56,4 @@ def add_comment_to_post(request, pk):
 def img_list(request):
     image = Image.objects.all()
     return render(request, 'blog/img_list.html', {'image':image})
+
